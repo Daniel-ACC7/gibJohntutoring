@@ -1,6 +1,7 @@
-import { Button } from "bootstrap";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { Button } from "./Button";
+import "./Navbar.css";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -24,7 +25,7 @@ function Navbar() {
       <nav className="navbar"></nav>
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          PLUH <i class="fa-brands fa-typo3" />
+          PLUH <i className="fa-brands fa-typo3" />
         </Link>
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
