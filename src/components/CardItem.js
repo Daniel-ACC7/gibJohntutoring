@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function CardItem() {
   return (
-    <div>
+    <>
       <li className="cards__item">
         <Link className="cards__item__link">
           <figure className="cards__item__pic-wrap">
@@ -14,7 +14,7 @@ function CardItem() {
           </div>
         </Link>
       </li>
-    </div>
+    </>
   );
 }
 
