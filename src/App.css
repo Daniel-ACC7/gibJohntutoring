@@ -7,8 +7,7 @@
 
 .home,
 .services,
-.products,
-.sign-up {
+.products {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -29,15 +28,6 @@
   background-image: url("C:\Users\daniel.ohandjanian.8\Documents\GitHub\gibJohn\public\images\img-1.jpg");
   background-position: center;
   background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.sign-up {
-  background-image: url("C:\Users\daniel.ohandjanian.8\Documents\GitHub\gibJohn\public\images\img-8.jpg");
-  background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
