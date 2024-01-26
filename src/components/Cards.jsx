@@ -16,19 +16,19 @@ function Cards() {
               path="/services"
             />
             <CardItem
-              src="images/img-9.jpg"
+              src="images/img-3.jpg"
               text="sed do eiusmod tempor incididunt"
               label="English"
               path="/services"
             />
             <CardItem
-              src="images/img-2.jpg"
+              src="images/img-8.jpg"
               text="Ut enim ad minim veniam"
               label="Chemistry"
               path="/services"
             />
             <CardItem
-              src="images/img-2.jpg"
+              src="images/img-4.jpg"
               text="quis nostrud exercitation ullamco laboris nisi"
               label="Computer Science"
               path="/services"
