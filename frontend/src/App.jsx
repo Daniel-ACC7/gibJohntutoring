@@ -5,7 +5,9 @@ import "./App.css";
 import Home from "./components/pages/Home";
 import Services from "./components/pages/Services";
 import Products from "./components/pages/Products";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
+import LogIn from "./components/pages/LogIn";
+import SignUp from "./components/pages/SignUp";
 
 function App() {
   return (
@@ -16,8 +18,10 @@ function App() {
           <Route path="/" exact element={<Home />} />
           <Route path="/services" element={<Services />} />
           <Route path="/products" element={<Products />} />
+          <Route path="/login" element={<LogIn />} />
+          <Route path="/signup" element={<SignUp />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </>
   );
