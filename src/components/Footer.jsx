@@ -29,7 +29,7 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>About Us</h2>
-            <Link to="/sign-up">How it works</Link>
+            <Link to="/">How it works</Link>
             <Link to="/">Testimonials</Link>
             <Link to="/">Blogs</Link>
             <Link to="/">FAQs</Link>
@@ -50,12 +50,11 @@ function Footer() {
             <Link to="/">Become a Teacher</Link>
           </div>
           <div class="footer-link-items">
-            <h2>Legal Information</h2>
-            <Link to="/services">Privacy Policy</Link>
+            <h2>Legal</h2>
+            <Link to="/">Privacy Policy</Link>
             <Link to="/">Cookie Policy</Link>
             <Link to="/">Terms and Conditions</Link>
             <Link to="/">Code of Conduct</Link>
-            <Link to="/">LinkedIn</Link>
           </div>
         </div>
       </div>
