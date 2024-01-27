@@ -50,11 +50,11 @@ function Footer() {
             <Link to="/">Become a Teacher</Link>
           </div>
           <div class="footer-link-items">
-            <h2>Social Media</h2>
-            <Link to="/">Instagram</Link>
-            <Link to="/">Facebook</Link>
-            <Link to="/">Youtube</Link>
-            <Link to="/">Twitter</Link>
+            <h2>Legal Information</h2>
+            <Link to="/services">Privacy Policy</Link>
+            <Link to="/">Cookie Policy</Link>
+            <Link to="/">Terms and Conditions</Link>
+            <Link to="/">Code of Conduct</Link>
             <Link to="/">LinkedIn</Link>
           </div>
         </div>
