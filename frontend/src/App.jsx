@@ -5,7 +5,7 @@ import "./App.css";
 import Home from "./components/pages/Home";
 import Tutors from "./components/pages/Tutors";
 import Subjects from "./components/pages/Subjects";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 import LogIn from "./components/pages/LogIn";
 import SignUp from "./components/pages/SignUp";
 
@@ -21,7 +21,7 @@ function App() {
           <Route path="/login" element={<LogIn />} />
           <Route path="/signup" element={<SignUp />} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </>
   );

@@ -97,7 +97,7 @@
   }
 
   .nav-menu.active {
-    background: pink;
+    background: #242424;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -114,7 +114,7 @@
 
   .nav-links:hover {
     background-color: #fff;
-    color: pink;
+    color: #242424;
     border-radius: 0;
   }
 
@@ -157,7 +157,7 @@
 
   .nav-links-mobile:hover {
     background: #fff;
-    color: pink;
+    color: #242424;
     transition: 250ms;
   }
 }

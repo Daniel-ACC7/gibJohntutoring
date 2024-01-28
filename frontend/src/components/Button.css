@@ -12,7 +12,7 @@
 
 .btn--primary {
   background-color: var(--primary);
-  color: pink;
+  color: #242424;
   border: 1px solid var(--primary);
 }
 
@@ -37,6 +37,6 @@
 .btn--medium:hover,
 .btn--large:hover {
   background: #fff;
-  color: pink;
+  color: #242424;
   transition: all 0.3s ease-out;
 }

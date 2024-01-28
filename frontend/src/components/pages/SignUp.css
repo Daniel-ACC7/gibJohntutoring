@@ -1,38 +1,53 @@
+body {
+  background-color: #00939f;
+}
+
+.background {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
 .sign__up_in__portal {
-  border: 2px;
-  border-color: black;
+  background-color: white;
+  margin-top: 10%;
+  max-width: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2rem;
-  position: sticky;
   flex-wrap: wrap;
   text-align: center;
-}
-
-.background {
-  background-color: pink;
-  margin-top: 10%;
-  max-width: 800px;
+  border-radius: 1%;
+  margin-bottom: 20%;
 }
 
 .container {
   display: flex;
   position: sticky;
   justify-self: start;
-  padding: 10px;
+  padding: 6px;
+  font-size: 1.5rem;
+  flex-direction: column;
+  text-align: left;
 }
 
 .name {
-  display: block;
+  display: flex;
+  font-size: 1.8rem;
+  width: 100%;
 }
 
 .email {
   display: flex;
+  font-size: 1.8rem;
+  width: 100%;
 }
 
 .password {
   display: flex;
+  font-size: 1.8rem;
+  width: 100%;
 }
 
 .name__error {
@@ -52,6 +67,9 @@
 
 .TnC {
   display: flex;
+  font-style: italic;
+  font-size: 1rem;
+  justify-content: center;
 }
 
 .Create__Acc {
@@ -61,12 +79,18 @@
 .btn__submit {
   align-items: center;
   width: 8rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  background-color: green;
+  color: aliceblue;
+  width: 80%;
 }
 
 .btn__sign__up_in {
   align-items: center;
   text-align: center;
   width: 8rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  background-color: white;
+  color: blue;
+  width: 80%;
 }
