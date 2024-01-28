@@ -19,6 +19,9 @@ function Validation(values) {
 
   if (values.password === "") {
     error.password = "Password should not be empty";
+  } else if (!password_pattern.test(values.password)) {
+    error.password =
+      "Password must have at least one capital, one number and 8 characters";
   } else {
     error.password = "";
   }
@@ -26,7 +29,3 @@ function Validation(values) {
 }
 
 export default Validation;
-
-// else if (!password_pattern.test(values.password)) {
-//   error.password =
-//     "Password must have at least one capital, one number and 8 characters";
