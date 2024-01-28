@@ -13,31 +13,31 @@ function Cards() {
               src="images/img-2.jpg"
               text="Lorem ipsum dolor sit amet"
               label="Physics"
-              path="/services"
+              path="/tutors"
             />
             <CardItem
               src="images/img-3.jpg"
               text="sed do eiusmod tempor incididunt"
               label="English"
-              path="/services"
+              path="/tutors"
             />
             <CardItem
               src="images/img-8.jpg"
               text="Ut enim ad minim veniam"
               label="Chemistry"
-              path="/services"
+              path="/tutors"
             />
             <CardItem
               src="images/img-4.jpg"
               text="quis nostrud exercitation ullamco laboris nisi"
               label="Computer Science"
-              path="/services"
+              path="/tutors"
             />
             <CardItem
               src="images/img-9.jpg"
               text="ut aliquip ex ea commodo consequat"
               label="Mathematics"
-              path="/services"
+              path="/tutors"
             />
           </ul>
         </div>

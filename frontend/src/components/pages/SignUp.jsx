@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Validation from "../SignUpValidation";
 import axios from "axios";
+import "./SignUp.css";
 
 function SignUp() {
   const [values, setValues] = useState({
@@ -34,11 +35,11 @@ function SignUp() {
   };
 
   return (
-    <div className="d-flex justify-content-center align-items-center bg-primary vh-100">
-      <div className="bg-white p-3 rounded w-25">
+    <div className="sign__up_in__portal">
+      <div className="background">
         <h2>Sign-Up</h2>
         <form action="" onSubmit={handleSubmit}>
-          <div className="mb-3">
+          <div className="container">
             <label htmlFor="name">
               <strong>Name</strong>
             </label>
@@ -47,11 +48,11 @@ function SignUp() {
               placeholder="Enter Full Name"
               name="name"
               onChange={handleInput}
-              className="form-control rounded-0"
+              className="name"
             />
-            {errors.name && <span className="text-danger"> {errors.name}</span>}
+            {errors.name && <span className="name__error"> {errors.name}</span>}
           </div>
-          <div className="mb-3">
+          <div className="container">
             <label htmlFor="email">
               <strong>Email</strong>
             </label>
@@ -60,13 +61,13 @@ function SignUp() {
               placeholder="Enter Email"
               name="email"
               onChange={handleInput}
-              className="form-control rounded-0"
+              className="email"
             />
             {errors.email && (
-              <span className="text-danger"> {errors.email}</span>
+              <span className="email__error"> {errors.email}</span>
             )}
           </div>
-          <div className="mb-3">
+          <div className="container">
             <label htmlFor="password">
               <strong>Password</strong>
             </label>
@@ -75,23 +76,20 @@ function SignUp() {
               placeholder="Enter Password"
               name="password"
               onChange={handleInput}
-              className="form-control rounded-0"
+              className="password"
             />
             {errors.password && (
-              <span className="text-danger"> {errors.password}</span>
+              <span className="password__error"> {errors.password}</span>
             )}
           </div>
-          <button type="submit" className="btn btn-success w-100 rounded-0">
+          <button type="submit" className="btn__submit">
             <strong>Sign Up</strong>
           </button>
-          <p>
-            By signing up you agree to our Terms and Conditions and Privacy
-            Policy
+          <p className="TnC">
+            By signing up you agree to our Terms and Conditions
           </p>
-          <Link
-            to="/login"
-            className="btn btn-default border w-100 bg-light rounded-0 text-decoration-none"
-          >
+          <p className="Login__Here">Already have an account? Log in here:</p>
+          <Link to="/login" className="btn__sign__up_in">
             <strong>Login</strong>
           </Link>
         </form>

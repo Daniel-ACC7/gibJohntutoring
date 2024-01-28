@@ -6,8 +6,8 @@
 }
 
 .home,
-.services,
-.products {
+.tutors,
+.subjects {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -15,7 +15,7 @@
   font-size: 3rem;
 }
 
-.services {
+.tutors {
   background-image: url("C:\Users\danie\Documents\GitHub\gibJohntutoring\frontend\public\images\img-2.jpg");
   background-position: center;
   background-size: cover;
@@ -24,7 +24,7 @@
   font-size: 100px;
 }
 
-.products {
+.subjects {
   background-image: url("C:\Users\danie\Documents\GitHub\gibJohntutoring\frontend\public\images\img-1.jpg");
   background-position: center;
   background-size: fill;

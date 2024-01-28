@@ -1,0 +1,72 @@
+.sign__up_in__portal {
+  border: 2px;
+  border-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  position: sticky;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.background {
+  background-color: pink;
+  margin-top: 10%;
+  max-width: 800px;
+}
+
+.container {
+  display: flex;
+  position: sticky;
+  justify-self: start;
+  padding: 10px;
+}
+
+.name {
+  display: block;
+}
+
+.email {
+  display: flex;
+}
+
+.password {
+  display: flex;
+}
+
+.name__error {
+  color: red;
+  display: block;
+}
+
+.email__error {
+  display: flex;
+  color: red;
+}
+
+.password__error {
+  display: flex;
+  color: red;
+}
+
+.TnC {
+  display: flex;
+}
+
+.Create__Acc {
+  display: flex;
+}
+
+.btn__submit {
+  align-items: center;
+  width: 8rem;
+  font-size: 2rem;
+}
+
+.btn__sign__up_in {
+  align-items: center;
+  text-align: center;
+  width: 8rem;
+  font-size: 2rem;
+}
