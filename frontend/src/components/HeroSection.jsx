@@ -5,9 +5,11 @@ import "./HeroSection.css";
 
 function HeroSection() {
   return (
+    // Making background video/image
     <div className="hero-container">
       <video src="/videos/video-2.mp4" autoPlay loop muted />
       <h1>GibJohn Tutoring</h1>
+      {/* Making homepage buttons */}
       <p>Online tutoring that stays fun and interactive</p>
       <div className="hero-btns">
         <Button

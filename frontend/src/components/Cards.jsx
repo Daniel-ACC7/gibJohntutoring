@@ -4,11 +4,13 @@ import "./Cards.css";
 
 function Cards() {
   return (
+    // Setting up the card css
     <div className="cards">
       <h1>Check out some of our tutors</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
+            {/* Repeatabke and reuseable cards that automatically arrange themselves on the page */}
             <CardItem
               src="images/img-2.jpg"
               text="Lorem ipsum dolor sit amet"

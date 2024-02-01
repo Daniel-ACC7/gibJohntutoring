@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { Button } from "./Button";
 
+// Setting onclick functionality
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
@@ -10,6 +11,7 @@ function Navbar() {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
+// Creating the alternate mobile view button to see the navbar on smaller screens
   const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
@@ -24,6 +26,7 @@ function Navbar() {
 
   window.addEventListener("resize", showButton);
 
+// Setting up links
   return (
     <>
       <nav className="navbar">

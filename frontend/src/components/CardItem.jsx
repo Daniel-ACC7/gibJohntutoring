@@ -6,8 +6,10 @@ function CardItem(props) {
     <>
       <li className="cards__item">
         <Link className="cards__item__link" to={props.path}>
+          {/* Creating repeatable cards to be defined in cards.css */}
           <figure className="cards__item__pic-wrap" data-category={props.label}>
             <img
+            // props.src allows the user to select a different image for each card
               src={props.src}
               alt="Tutors"
               className="cards__item__img"
